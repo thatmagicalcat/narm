@@ -14,7 +14,15 @@ fn panic(info: &core::panic::PanicInfo) -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    println!("Hello World");
+    println!("          Hello World");
+    println!();
+    println!();
+    println!();
+    println!();
+    println!();
+    println!();
+    println!();
+    println!();
 
     loop { }
 }
